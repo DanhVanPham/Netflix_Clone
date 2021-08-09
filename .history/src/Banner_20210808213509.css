@@ -1,0 +1,29 @@
+.banner {
+    position: fixed;
+    height: 100%;
+    color:white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: contain;
+}
+
+.banner__contents {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 24px;
+    width: 100%;
+    padding: 75px 0;
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+}
+
+.banner__title {
+    max-width: 640px;
+    margin: 0 auto;
+}

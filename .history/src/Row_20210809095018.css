@@ -1,0 +1,26 @@
+.row {
+    color: white;
+    margin-left: 20px;
+}
+
+.row__posters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.row__poster {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.row__posterLarge {
+
+}
